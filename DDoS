@@ -1,0 +1,15 @@
+#!/bin/bash
+echo ███OOO███OOO████O████
+echo █OO█OO█OO█OO█OO█O█OOO
+echo █OO█OO█OO█OO█OO█O████
+echo █OO█OO█OO█OO█OO█OOOO█
+echo ███OOO███OOO████O████
+echo DDoS tool made by @Chucny
+echo Wich IP would you like to attack?
+read x
+echo Do you really want to attack this IP? Press ENTER if so.
+read times
+for i in {times}
+do
+  ping $x
+done
